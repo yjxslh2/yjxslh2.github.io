@@ -5,10 +5,10 @@ var S = {
         document.body.classList.add('body--ready');
             //想说什么
 			if (ua.match(/MicroMessenger/i) == "micromessenger"||ua.match(/WeiBo/i) == "weibo"||ua.match(/QQ/i) == "qq"||ua.match(/AppleWebKit.*Mobile.*/)) {
-				S.UI.simulate("华华|生日|快乐|啦！|欢迎|来到|23岁|爱你|小黑|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+				S.UI.simulate("华华|生日|快乐|啦！|欢迎|来到|24岁|爱你|小黑|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             }
 			else {
-				S.UI.simulate("华华|生日快乐啦|要不止生日|欢迎来到23岁！！|小黑永远爱你！！|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+				S.UI.simulate("华华|生日快乐啦|要不止生日|欢迎来到24岁！！|小黑永远爱你！！|#countdown 3|#rectangle 15x15|#circle 12 |#time");
 			}
 			
 			S.Drawing.loop(function () {
